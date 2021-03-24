@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.BlockArea {
+  width: 100vw;
+  max-width: 720px;
+  display: inline-flex;
+  align-items: flex-end;
+  margin-top: 100px;
+}
+
+.Blocks {
+  width: 25%;
+}
+
+.BlackBlock {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  padding-top: 100%;
+}
+
+.WhiteBlock {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding-top: 100%;
+}
